@@ -64,7 +64,7 @@ def open_main_app():
     main_app.geometry("1275x1275")
 
     try:
-            bg_image = PhotoImage(file=r"C:\Users\jahab\Desktop\Python\Track.png")
+            bg_image = PhotoImage(file=r"C:\Users\jahab\Downloads\Track.png")
             bg_label = tk.Label(main_app, image=bg_image)
             bg_label.image = bg_image  # Prevent garbage collection
             bg_label.place(relheight=1, relwidth=1)
